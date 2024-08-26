@@ -15,6 +15,7 @@ print(f'Residuo o Resto -> {10 % 3}')
 print(f'Division Entera o Cociente -> {10 // 3}')
 # Potencia
 print(f'Potencia -> {3 ** 4}')
+print() # PRINT Vacio para hacer un salto de linea el la consola
 
 
 ''' Operaciones con cadenas de texto '''
@@ -24,11 +25,13 @@ print('Hola ' + 'Python ' + '¿Que tal?')
 print('Hola ' + str(5))
 # Se Multpica ('Hola') 8 veces
 print('Hola ' * (2 ** 3))
+print()
 
 ''' Operaciones Mixtas '''
 # Se Multiplico 2.5 * 2 y se convirtio a entero con int() para poder multiplicarlo con la cadena de texto ('Hola')
 my_float = 2.5 * 2
 print("Hola " * int(my_float)) 
+print()
 
 ### OPERADORES COMPARATIVOS ###
 
@@ -46,6 +49,7 @@ print(3 <= 4)
 print(3 == 4)
 # Diferente que...
 print(3 != 4)
+print()
 
 ''' Operaciones con cadenas de texto '''
 
@@ -57,17 +61,41 @@ print(3 != 4)
 '''
 
 # Mayor que...
-print("Hola" > "Python")
+print(f'El resultado es = {"Hola" > "Python"}')
+
 # Menor que...
-print("Hola" < "Python")
+print(f'El resultado es = {"Hola" < "Python"}')
+
 # Mayor o igual que...
-print("Hola" >= "Python")
+print(f'El resultado es = {"Hola" >= "Python"}')
+
 # Menor o igual que...
-print("Hola" <= "Python")
+print(f'El resultado es = {"Hola" <= "Python"}')
+
 # Igual que...
-print("Hola" == "Python")
+print(f'El resultado es = {"Hola" == "Python"}')
+
 # Diferente que...
-print("Hola" != "Python")
+print(f'El resultado es = {"Hola" != "Python"}')
+
+print()
 
 ### OPERADORES LOGICOS ###
-2.18.24
+
+# 3 > 4 es False y "Hola" > "Python" es False = False and False = Falsej
+print(f'False and False = {3 > 4 and "Hola" > "Python"}')
+
+# 3 > 4 es False y "Hola" > "Python" es False = False or False = False
+print(f'False or False = {3 > 4 or "Hola" > "Python"}')
+
+# 3 < 4 es True y "Hola" < "Python" es True = True and True = True
+print(f'True and True = {3 < 4 and "Hola" < "Python"}')
+
+# 3 < 4 es True y "Hola" < "Python" es True = True or True = True
+print(f'True or True = {3 < 4 or "Hola" < "Python"}')
+
+# 3 < 4 es True y "Hola" < "Python" es True y 4 == 4 es True = True or (True and True) = True or True = True
+print(f'True or (True and True) = {3 < 4 or ("Hola" < "Python" and 4 == 4)}')
+
+# 3 > 4 es False = not(False) = True
+print(f'not False = {not(3 > 4)}')
