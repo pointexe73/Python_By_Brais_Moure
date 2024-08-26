@@ -38,17 +38,17 @@ print()
 ''' Operaciones con enteros '''
 
 # Mayor que...
-print(3 > 4)  
+print(f'El resultado es = {3 > 4}') # False
 # Menor que...
-print(3 < 4)
+print(f'El resultado es = {3 < 4}') # True
 # Mayor o igual que...
-print(3 >= 4)
+print(f'El resultado es = {3 >= 4}') # False
 # Menor o igual que...
-print(3 <= 4)
+print(f'El resultado es = {3 <= 4}') # True
 # Igual que...
-print(3 == 4)
+print(f'El resultado es = {3 == 4}') # False
 # Diferente que...
-print(3 != 4)
+print(f'El resultado es = {3 != 4}') # True
 print()
 
 ''' Operaciones con cadenas de texto '''
@@ -61,28 +61,29 @@ print()
 '''
 
 # Mayor que...
-print(f'El resultado es = {"Hola" > "Python"}')
+print(f'El resultado es = {"Hola" > "Python"}') # False
 
 # Menor que...
-print(f'El resultado es = {"Hola" < "Python"}')
+print(f'El resultado es = {"Hola" < "Python"}') # True
 
 # Mayor o igual que...
-print(f'El resultado es = {"Hola" >= "Python"}')
+print(f'El resultado es = {"Hola" >= "Python"}') # False
 
 # Menor o igual que...
-print(f'El resultado es = {"Hola" <= "Python"}')
+print(f'El resultado es = {"Hola" <= "Python"}') # True
 
 # Igual que...
-print(f'El resultado es = {"Hola" == "Python"}')
+print(f'El resultado es = {"Hola" == "Python"}') # False
 
 # Diferente que...
-print(f'El resultado es = {"Hola" != "Python"}')
+print(f'El resultado es = {"Hola" != "Python"}') # True
 
 print()
 
+
 ### OPERADORES LOGICOS ###
 
-# 3 > 4 es False y "Hola" > "Python" es False = False and False = Falsej
+# 3 > 4 es False y "Hola" > "Python" es False = False and False = False
 print(f'False and False = {3 > 4 and "Hola" > "Python"}')
 
 # 3 > 4 es False y "Hola" > "Python" es False = False or False = False
