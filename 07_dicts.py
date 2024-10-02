@@ -42,6 +42,6 @@ print(f'Mi my_dict es: {my_dict}\n') # -> Mi my_dict es: {'Nombre': 'Pedro', 'Ap
 print(f'Esta en el diccionario: {"Moure" in my_dict}') # -> Esta en el diccionario: False, porque busca la clave, no el valor
 print(f'Esta en el diccionaruo: {"Apellido" in my_dict}\n') # -> Esta en el diccionaruo: True, porque busca la clave, no el valor
 
-# Imprimir el valor 
+# Imprimir el valor de my_dict["Apellido"]
 print(f'Valor de Apellido es: {my_dict["Apellido"]}\n') # -> Valor de Apellido es: Moure
 
