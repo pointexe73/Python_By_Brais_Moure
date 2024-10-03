@@ -1,4 +1,4 @@
-## Diccionario
+## 
 ### Hora de video
 
 
